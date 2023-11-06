@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0;
+
+}
+
+  body {
+    background-image: url(./assets/WhatsApp\ Image\ 2023-11-02\ at\ 15.27.02.jpeg);
+  }
+ #letraRosiEntrada{
+  padding: 0rem;
+    font-family: "GFS Didot", serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 4rem;
+ }
+
+ #letraNombreRosi{
+  padding: 0rem;
+  font-family: "GFS Didot", serif;
+  color: #000;
+  font-weight: 100;
+  font-size: 30px;
+  font-style: italic
+ }
+  .textoRosi {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "GFS Didot", serif;
+  }
+
+  .letrasRosi{
+    padding: 0rem;
+    font-family: "Edu TAS Beginner", serif;
+    color: #000;
+    font-weight: 550;
+    font-size: 1.20rem;
+    font-style: italic;
+  }
+  #letrasAlteradas{
+    padding: 0rem;
+    font-family: "Edu TAS Beginner", serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.20rem;
+    font-style: italic;
+  }
+  .contadorHoras {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-custom{
+    background-color: #ab505f;
+    color: white;
+  }
+.btn-customB{
+  background-color: #ab505f;
+  color: white;
+}
+  .rosarioCumple{
+    position: relative;
+    top: 2rem;
+  }
+
+.contenedorOverflow{
+  overflow: hidden;
+}
+
+@media (min-width: 1250px) {
+    * {
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCcr46IyHRN_PjhtQ57HpxcgnECN6pLStgavljF13r&s);
+    }
+  
+}
